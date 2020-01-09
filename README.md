@@ -78,6 +78,15 @@ Fix the bugs in the registerHandlers function. An alert should display anchor's 
 
 For example, in the document below, the alert should display "2" when Google anchor is clicked since it is the third anchor element in the document and its zero-based index is 2.
 
+```
+<body>
+  In my life, I used the following web search engines:<br/>
+  <a href="//www.yahoo.com">Yahoo!</a><br/>
+  <a href="//www.altavista.com">AltaVista</a><br/>
+  <a href="//www.google.com">Google</a><br/>
+</body>
+```
+
 5. Avatar
 
 Every user on your website has an image avatar that is displayed when they post a comment. You want to style these images differently from other images on your site. Add a CSS class named avatar that fulfils the following requirements:
@@ -139,9 +148,10 @@ Fix the bugs in the following HTML code.
 
 Update the website's HTML, without using JavaScript or CSS, to make use of semantic elements so that:
 
-    • The classless outer div element is replaced with a more appropriate element.
-    • The divs with the image and caption classes are replaced with self-contained content elements.
-    • The divs with the lorem-ipsum and description classes are replaced with elements, so that by default only the contents of the description element are shown. When the contents of the description element are clicked, the visibility of the rest of the lorem-ipsum element is toggled.
+  * The classless outer div element is replaced with a more appropriate element.
+  * The divs with the image and caption classes are replaced with self-contained content elements.
+  * The divs with the lorem-ipsum and description classes are replaced with elements, so that by default only the contents of the description element are shown. When the contents of the description element are clicked, the visibility of the rest of the lorem-ipsum element is toggled.
+
 ```
 <!DOCTYPE html>
 <html>
